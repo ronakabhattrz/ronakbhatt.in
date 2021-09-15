@@ -39,7 +39,7 @@ const Home = (): JSX.Element => (
         <Container>
           <Text textAlign="center">
             I&apos;m a Full Stack software engineer with solid experience with
-            Ruby on Rails and Javascripts Frameworks. I've worked in
+            Ruby on Rails and Javascripts Frameworks. I&apos;ve worked in
             applications in several business areas and with several
             technologies. kindly check my profile on &nbsp;
             <a href="https://www.upwork.com/freelancers/~012a850ee7999e38f5">
