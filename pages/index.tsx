@@ -38,9 +38,14 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m a Full Stack developer with experience in DevOps, Backend,
-            Frontend and mobile development. Currently CTO of&nbsp;
-            <a href="https://shareview.fr">Shareview</a> and living in Paris.
+            I&apos;m a Full Stack software engineer with solid experience with
+            Ruby on Rails and Javascripts Frameworks. I've worked in
+            applications in several business areas and with several
+            technologies. kindly check my profile on &nbsp;
+            <a href="https://www.upwork.com/freelancers/~012a850ee7999e38f5">
+              Upwork
+            </a>{' '}
+            and Basically i am living in India 🇮🇳
           </Text>
         </Container>
         <Link href="/about">
@@ -65,7 +70,7 @@ const Home = (): JSX.Element => (
           justifyItems="stretch"
           alignItems="stretch"
         >
-          <Link href="mailto:hello@shellbear.me">
+          <Link href="mailto:ronakabhattrz@gmail.com">
             <Button width="100%">
               <motion.span
                 initial={{ display: 'inline-block' }}
@@ -81,10 +86,7 @@ const Home = (): JSX.Element => (
               Say hello
             </Button>
           </Link>
-          <Link
-            target="_blank"
-            href="https://calendly.com/antoine-ordonez/intro"
-          >
+          <Link target="_blank" href="https://calendly.com/ronakbhatt/30min">
             <Button
               width="100%"
               backgroundColor="rgb(226,232,240)"

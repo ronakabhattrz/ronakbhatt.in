@@ -22,14 +22,14 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
       <meta property="og:title" content="Ronak Bhatt" />
       <meta
         property="og:description"
-        content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
+        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and Javascripts Frameworks. I've worked in applications in several business areas and with several technologies."
       />
       <meta property="og:type" content="website" />
       <meta property="twitter:site" content="@_shellbear" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         property="og:image"
-        content="https://shellbear.me/img/preview.png"
+        content="https://ronakbhatt.in/img/preview.png"
       />
       {process.env.NODE_ENV === 'production' && (
         <>
