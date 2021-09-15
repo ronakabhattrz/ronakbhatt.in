@@ -1,11 +1,11 @@
-# [shellbear.me](https://shellbear.me/)
+# [ronakbhatt.in](https://ronakbhatt.in/)
 
 Source code of my personal website & blog ✨
 
-Check the live version [here](https://shellbear.me/) ⚡️
+Check the live version [here](https://ronakbhatt.in/) ⚡️
 
-[![home](./.github/img/home.png)](https://shellbear.me/)
-[![blog](./.github/img/blog.png)](https://shellbear.me/)
+[![home](./.github/img/home.png)](https://ronakbhatt.in/)
+[![blog](./.github/img/blog.png)](https://ronakbhatt.in/)
 
 ## ✨ Features
 

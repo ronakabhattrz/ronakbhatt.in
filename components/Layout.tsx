@@ -11,18 +11,15 @@ type LayoutProps = {
   title?: string;
 };
 
-const Layout: React.FC<LayoutProps> = ({
-  title = 'Antoine Ordonez',
-  children,
-}) => (
+const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
   <div className={styles.container}>
     <Head>
       <title>{title}</title>
       <link rel="icon" href="/favicon.ico" />
       <meta charSet="utf-8" />
-      <meta name="author" content="Antoine Ordonez" />
+      <meta name="author" content="Ronak Bhatt" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Antoine Ordonez" />
+      <meta property="og:title" content="Ronak Bhatt" />
       <meta
         property="og:description"
         content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
