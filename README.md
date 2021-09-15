@@ -5,7 +5,6 @@ Source code of my personal website & blog ✨
 Check the live version [here](https://ronakbhatt.in/) ⚡️
 
 [![home](./.github/img/home.png)](https://ronakbhatt.in/)
-<!-- [![blog](./.github/img/blog.png)](https://ronakbhatt.in/) -->
 
 ## ✨ Features
 
