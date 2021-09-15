@@ -4,18 +4,24 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import {
-  SiGo,
-  SiKubernetes,
-  SiElixir,
+  SiRuby,
   SiPostgresql,
   SiTypescript,
   SiAmazonaws,
-  SiGooglecloud,
-  SiTerraform,
   SiReact,
   SiNextDotJs,
-  SiPython,
   SiGraphql,
+  SiMysql,
+  SiHtml5,
+  SiMongodb,
+  SiGithub,
+  SiJira,
+  SiJquery,
+  SiMaterialUi,
+  SiRedux,
+  SiSass,
+  SiBitbucket,
+  SiElasticsearch,
 } from 'react-icons/si';
 import { getPosts, Post } from '@posts';
 import { TransparentLink } from '@components';
@@ -28,12 +34,8 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
   const stacks = React.useMemo(
     () => [
       {
-        Icon: SiGo,
-        url: 'https://golang.org/',
-      },
-      {
-        Icon: SiKubernetes,
-        url: 'https://kubernetes.io/',
+        Icon: SiRuby,
+        url: 'https://rubyonrails.org/',
       },
       {
         Icon: SiTypescript,
@@ -56,24 +58,52 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
         url: 'https://nextjs.org/',
       },
       {
-        Icon: SiElixir,
-        url: 'https://elixir-lang.org/',
-      },
-      {
-        Icon: SiGooglecloud,
-        url: 'https://cloud.google.com/',
-      },
-      {
-        Icon: SiTerraform,
-        url: 'https://www.terraform.io/',
-      },
-      {
         Icon: SiPostgresql,
         url: 'https://www.postgresql.org/',
       },
       {
-        Icon: SiPython,
-        url: 'https://www.python.org/',
+        Icon: SiMysql,
+        url: 'https://www.mysql.com/',
+      },
+      {
+        Icon: SiMongodb,
+        url: 'https://www.mongodb.com/',
+      },
+      {
+        Icon: SiHtml5,
+        url: 'https://en.wikipedia.org/wiki/HTML',
+      },
+      {
+        Icon: SiBitbucket,
+        url: 'https://bitbucket.org/',
+      },
+      {
+        Icon: SiGithub,
+        url: 'hhttps://github.com/',
+      },
+      {
+        Icon: SiJira,
+        url: 'https://www.atlassian.com/software/jira',
+      },
+      {
+        Icon: SiJquery,
+        url: 'https://jquery.com/',
+      },
+      {
+        Icon: SiMaterialUi,
+        url: 'https://material-ui.com/',
+      },
+      {
+        Icon: SiRedux,
+        url: 'https://redux.js.org/',
+      },
+      {
+        Icon: SiSass,
+        url: 'https://sass-lang.com/',
+      },
+      {
+        Icon: SiElasticsearch,
+        url: 'https://www.elastic.co/elasticsearch/',
       },
     ],
     [],
@@ -86,15 +116,17 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
       </Head>
       <Container alignContent="center" alignItems="center">
         <Title fontSize={['3rem', '4rem']} as="h2">
-          CTO & passionate
+          Freelancer | Consultant
         </Title>
         <Container maxWidth={['100%', '700px']} marginY="2rem">
-          <Text>I&apos;m a Full-Stack/DevOps developer living in Paris.</Text>
+          <Text>I&apos;m a Full-Stack developer living in India.</Text>
           <Text>
-            During my free time I like going gym, doing Bench Press, make design
-            and make video edits on After Effects. You can check some cool drone
-            edits on my{' '}
-            <a href="https://instagram.com/croissant2france">Instagram</a>.
+            During my free time I like to produce music, play guitar. You can
+            check some cool music on my{' '}
+            <a href="https://open.spotify.com/artist/57OlkDwFEiWMKvrmlQPVOT">
+              Spotify
+            </a>
+            .
           </Text>
         </Container>
       </Container>
@@ -138,7 +170,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
         </Title>
         <Container width="100%">
           {experiences.map(({ data }, i) => (
-            <TransparentLink href={`/about/${data.slug}`} key={data.slug}>
+            <TransparentLink href={`#`} key={data.slug}>
               <Grid
                 key={i}
                 gridTemplateColumns="1fr 4fr"

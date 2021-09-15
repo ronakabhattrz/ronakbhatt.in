@@ -32,7 +32,7 @@ const Home = (): JSX.Element => (
           fontWeight="500"
           as="h2"
         >
-          I build cloud software.
+          I make your business shine on the web.
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">
