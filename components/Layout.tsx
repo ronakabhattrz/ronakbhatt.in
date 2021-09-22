@@ -42,7 +42,7 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
       />
       <meta name="robots" content="index, follow" />
       <meta name="language" content="English" />
-      <meta http-equiv="content-language" content="en" />
+      <meta httpEquiv="content-language" content="en" />
       <meta name="revisit-after" content="1 days" />
       <meta name="author" content="Ronak Bhatt" />
       <meta property="og:type" content="website" />
