@@ -29,7 +29,6 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
         content="Ronak, Ronak Bhatt, Ruby, Ruby on Rails, MySQL, Postgres, react js, Typescript, next js, Heroku, AWS, ronakbhattrz, ronakabhattrz, ronak songs, ronak bhatt ruby on rails, ruby on rails developer, react js developer"
       />
       <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="revisit-after" content="1 days" />
       <meta name="author" content="Ronak Bhatt" />
