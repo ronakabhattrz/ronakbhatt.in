@@ -24,7 +24,6 @@ import {
   SiElasticsearch,
 } from 'react-icons/si';
 import { getPosts, Post } from '@posts';
-import { TransparentLink } from '@components';
 
 interface AboutProps {
   experiences: Post[];
