@@ -6,6 +6,7 @@ import Nav from './Nav';
 
 import styles from '@styles/Home.module.css';
 import TagManager from 'react-gtm-module';
+import ReactGA from 'react-ga';
 
 const tagManagerArgs = {
   gtmId: 'GTM-PTQB8D3',
@@ -15,6 +16,7 @@ const tagManagerArgs = {
 if (process.browser) {
   TagManager.initialize(tagManagerArgs);
 }
+ReactGA.initialize('AW-872249860');
 
 type LayoutProps = {
   children?: React.ReactNode;

@@ -36,6 +36,7 @@
     "raw-loader": "^4.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-ga": "^3.3.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.2.0",
     "react-notion-x": "^4.7.4",
