@@ -12,7 +12,9 @@ const tagManagerArgs = {
   preview: 'env-2',
 };
 
-TagManager.initialize(tagManagerArgs);
+if (process.browser) {
+  TagManager.initialize(tagManagerArgs);
+}
 
 type LayoutProps = {
   children?: React.ReactNode;
