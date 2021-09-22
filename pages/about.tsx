@@ -170,48 +170,45 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
         </Title>
         <Container width="100%">
           {experiences.map(({ data }, i) => (
-            <TransparentLink href={`#`} key={data.slug}>
-              <Grid
-                key={i}
-                gridTemplateColumns="1fr 4fr"
-                justifyItems="flex-start"
-                gridGap="1rem"
-                paddingY="2rem"
-                borderBottom="1px solid rgba(0,0,0,0.1)"
-              >
-                <Container width="100%">
-                  <Text>0{experiences.length - i}</Text>
-                </Container>
-                <Grid width="100%" gridTemplateColumns="4fr 1fr">
-                  <Container
+            <Grid
+              key={i}
+              gridTemplateColumns="1fr 4fr"
+              justifyItems="flex-start"
+              gridGap="1rem"
+              paddingY="1rem"
+              borderBottom="1px solid rgba(0,0,0,0.1)"
+            >
+              <Container width="100%">
+                <Text>0{experiences.length - i}</Text>
+              </Container>
+              <Grid width="100%" gridTemplateColumns="4fr 1fr">
+                <Container
+                  width="100%"
+                  alignItems="flex-start"
+                  textAlign="start"
+                >
+                  <Grid
                     width="100%"
-                    alignItems="flex-start"
-                    textAlign="start"
+                    gridTemplateColumns="repeat(2, auto)"
+                    justifyItems="flex-start"
+                    justifyContent="flex-start"
+                    gridGap="1rem"
                   >
-                    <Grid
-                      width="100%"
-                      gridTemplateColumns="repeat(2, auto)"
-                      justifyItems="flex-start"
-                      justifyContent="flex-start"
-                      gridGap="1rem"
+                    <Title fontSize="1.5rem" margin={0} as="h3">
+                      {data.title}
+                    </Title>
+                    <Text
+                      fontSize="smaller"
+                      margin={0}
+                      color="rgba(0, 0, 0, 0.1)"
                     >
-                      <Title fontSize="1.5rem" margin={0} as="h3">
-                        {data.title}
-                      </Title>
-                      <Text
-                        fontSize="smaller"
-                        margin={0}
-                        color="rgba(0, 0, 0, 0.1)"
-                      >
-                        {data.date}
-                      </Text>
-                    </Grid>
-                    <Text fontSize="1rem">{data.caption}</Text>
-                  </Container>
-                  <Text fontSize="1.5rem">&rarr;</Text>
-                </Grid>
+                      {data.date}
+                    </Text>
+                  </Grid>
+                  <Text fontSize="1rem">{data.caption}</Text>
+                </Container>
               </Grid>
-            </TransparentLink>
+            </Grid>
           ))}
         </Container>
       </Container>

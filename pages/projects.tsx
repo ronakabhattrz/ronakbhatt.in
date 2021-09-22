@@ -12,7 +12,7 @@ interface ProjectProps {
 
 const ProjectImage = styled.img`
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
   border-radius: 4px;
   transition: 0.2s ease-in-out 0s;
@@ -30,8 +30,12 @@ const ProjectContainer = styled(Container)`
 
 const ProjectTag = styled.li`
   color: rgb(105, 105, 105);
-  font-size: 13px;
   letter-spacing: 0.03em;
+  padding: 0 10px;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
 `;
 
 const ProjectButton = styled(Button)`
@@ -48,14 +52,14 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       <Text textAlign="center">
         I&apos;m always working on new projects. <br />
         You can find them on my&nbsp;
-        <a href="https://github.com/shellbear">Github</a>.
+        <a href="https://github.com/ronakabhattrz">Github</a>.
       </Text>
     </Container>
     <Grid
       py="4rem"
       gridTemplateColumns={['1fr', 'repeat(2, 1fr)']}
       width="100%"
-      gridGap="10%"
+      gridGap="100px"
     >
       {projects.map(({ data }) => (
         <ProjectContainer
@@ -75,7 +79,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
             width="100%"
           >
             <Link href={data.url}>
-              <Title fontSize="2rem" as="h2">
+              <Title fontSize="1.4rem" as="h1">
                 {data.title}
               </Title>
             </Link>

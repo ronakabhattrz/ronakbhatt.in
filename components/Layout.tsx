@@ -22,10 +22,19 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
       <meta property="og:title" content="Ronak Bhatt" />
       <meta
         property="og:description"
-        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and Javascripts Frameworks. I've worked in applications in several business areas and with several technologies."
+        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and Javascript Frameworks. I've worked in applications in several business areas and with several technologies."
       />
+      <meta
+        name="keywords"
+        content="Ronak, Ronak Bhatt, Ruby, Ruby on Rails, MySQL, Postgres, react js, Typescript, next js, Heroku, AWS, ronakbhattrz, ronakabhattrz, ronak songs, ronak bhatt ruby on rails, ruby on rails developer, react js developer"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English" />
+      <meta name="revisit-after" content="1 days" />
+      <meta name="author" content="Ronak Bhatt" />
       <meta property="og:type" content="website" />
-      <meta property="twitter:site" content="@_shellbear" />
+      <meta property="twitter:site" content="@ronakabhattrz" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         property="og:image"
@@ -35,7 +44,7 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
         <>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-RZP6RWZ32F"
+            src="https://www.googletagmanager.com/gtag/js?id=GTM-PTQB8D3"
           />
           <script
             dangerouslySetInnerHTML={{
@@ -44,7 +53,7 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
       
-                  gtag('config', 'G-RZP6RWZ32F');`,
+                  gtag('config', 'GTM-PTQB8D3');`,
             }}
           />
         </>

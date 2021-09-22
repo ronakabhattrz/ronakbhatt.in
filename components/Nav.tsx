@@ -13,12 +13,8 @@ const states: { [key: string]: React.CSSProperties } = {
     left: '81px',
     width: '65px',
   },
-  '/blog': {
-    left: '157px',
-    width: '55px',
-  },
   '/projects': {
-    left: '224px',
+    left: '159px',
     width: '79px',
   },
 };
@@ -90,12 +86,11 @@ const Nav = (): JSX.Element => {
           />
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
-          <NavLink href="/blog">Blog</NavLink>
           <NavLink href="/projects">Projects</NavLink>
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:ronakabhattrz@gmail.com">Contact</NavLink>
+        <NavLink href="mailto:hello@ronakbhatt.in">Contact</NavLink>
       </Container>
     </Grid>
   );
