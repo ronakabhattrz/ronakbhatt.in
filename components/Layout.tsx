@@ -52,24 +52,6 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
         property="og:image"
         content="https://ronakbhatt.in/img/preview.png"
       />
-      {process.env.NODE_ENV === 'production' && (
-        <>
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=GTM-PTQB8D3"
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-      
-                  gtag('config', 'GTM-PTQB8D3');`,
-            }}
-          />
-        </>
-      )}
     </Head>
     <Nav />
     <Container justifyContent="space-between" alignContent="space-between">
