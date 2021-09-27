@@ -87,6 +87,9 @@ const Nav = (): JSX.Element => {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/projects">Projects</NavLink>
+          <NavLink href="https://pmny.in/DIMfjsQ3b2UX" target="_blank">
+            Buy Me 🍻
+          </NavLink>
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
