@@ -5,17 +5,17 @@ import Footer from './Footer';
 import Nav from './Nav';
 
 import styles from '@styles/Home.module.css';
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 import ReactGA from 'react-ga';
 
-const tagManagerArgs = {
-  gtmId: 'GTM-PTQB8D3',
-  preview: 'env-2',
-};
+// const tagManagerArgs = {
+//   gtmId: 'GTM-PTQB8D3',
+//   preview: 'env-2',
+// };
 
-if (process.browser) {
-  TagManager.initialize(tagManagerArgs);
-}
+// if (process.browser) {
+//   TagManager.initialize(tagManagerArgs);
+// }
 ReactGA.initialize('AW-872249860');
 
 type LayoutProps = {
