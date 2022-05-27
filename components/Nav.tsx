@@ -96,7 +96,17 @@ const Nav = (): JSX.Element => {
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:hello@ronakbhatt.in">Contact</NavLink>
+        <>
+          <a
+            data-tf-slider="EHzEJ0YG"
+            data-tf-width="550"
+            data-tf-iframe-props="title=Contact Form"
+            data-tf-medium="snippet"
+          >
+            Contact
+          </a>
+          <script src="//embed.typeform.com/next/embed.js"></script>
+        </>
       </Container>
     </Grid>
   );
