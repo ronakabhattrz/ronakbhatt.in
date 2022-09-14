@@ -3,7 +3,6 @@ import { Title, Text, Container, Grid, Link, Card } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '@styles/Home.module.css';
 
 import {
   SiRuby,
