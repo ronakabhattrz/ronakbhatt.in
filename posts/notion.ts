@@ -19,23 +19,18 @@ export const POSTS = {
 export const EXPERIENCES = {
   crest: {
     date: '2021 - Now',
-    uri: 'shblog/Shareview-CTO-b3f7d62a744d4cb7bd271d25f4790ece',
   },
   mainstreet: {
     date: '2020 - 2021',
-    uri: 'shblog/Dispatcher-Go-Backend-developer-fa13680ef8324bacb31b773a5f08c3ad',
   },
   upwork: {
     date: '2020',
-    uri: 'shblog/Tresorio-12516126ddb84eb6abc72656731e1f26',
   },
   softices: {
     date: '2019 - 2020',
-    uri: 'shblog/Epitech-Teaching-assistant-b8ee49774bd5423ba00a6921c026c1c6',
   },
   complitech: {
     date: '2016 - 2019',
-    uri: 'shblog/Bilberry-28dc7324b3e24fd6a4475a63c2ac0410',
   },
 };
 

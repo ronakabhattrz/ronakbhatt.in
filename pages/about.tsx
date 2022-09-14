@@ -2,6 +2,8 @@ import React from 'react';
 import { Title, Text, Container, Grid, Link, Card } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
+import styles from '@styles/Home.module.css';
 
 import {
   SiRuby,
@@ -177,8 +179,15 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
               paddingY="1rem"
               borderBottom="1px solid rgba(0,0,0,0.1)"
             >
-              <Container width="100%">
-                <Text>0{experiences.length - i}</Text>
+              <Container width="70%">
+                <>{console.log('TITLE:' + data.image_url)}</>
+                <Image
+                  src={data.image_url}
+                  alt={data.title}
+                  width={50}
+                  height={90}
+                  objectFit="cover"
+                />
               </Container>
               <Grid width="100%" gridTemplateColumns="4fr 1fr">
                 <Container
