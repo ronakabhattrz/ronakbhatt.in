@@ -184,7 +184,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
                   src={data.image_url}
                   alt={data.title}
                   width={50}
-                  height={90}
+                  height={91}
                   objectFit="cover"
                 />
               </Container>
