@@ -87,10 +87,7 @@ const Nav = (): JSX.Element => {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/projects">Projects</NavLink>
-          <NavLink
-            href="https://www.veem.com/pay/ronakabhattrz"
-            target="_blank"
-          >
+          <NavLink href="https://paypal.me/ronakbhattrz" target="_blank">
             Donate!
           </NavLink>
         </Grid>
