@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Grid from './Grid';
 import Container from './Container';
+import Image from 'next/image';
 import styled from 'styled-components';
 
 const states: { [key: string]: React.CSSProperties } = {
@@ -56,8 +57,18 @@ const Nav = (): JSX.Element => {
       my="3rem"
       gridTemplateColumns={['1fr', '1fr', '1fr 1fr 1fr']}
     >
-      <Container display={['none', 'none', 'flex']}>
-        <NavLink href="/">RONAK BHATT </NavLink>
+      <Container
+        display={['none', 'none', 'flex']}
+        style={{ justifyContent: 'center', alignItems: 'center' }}
+      >
+        <NavLink href="/">
+          <Image
+            src="/img/Ronak-bhatt.png"
+            alt="Ronak Bhatt"
+            width="180px"
+            height="45px"
+          />
+        </NavLink>
       </Container>
       <Container alignContent="center">
         <Grid
@@ -87,12 +98,16 @@ const Nav = (): JSX.Element => {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/projects">Projects</NavLink>
-          <NavLink href="https://paypal.me/ronakbhattrz" target="_blank">
-            Donate!
+          <NavLink href="CV-RONAK.pdf" target="_blank">
+            CV
           </NavLink>
         </Grid>
       </Container>
-      <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
+      <Container
+        alignContent="flex-center"
+        display={['none', 'none', 'flex']}
+        style={{ justifyContent: 'center', alignItems: 'center' }}
+      >
         <>
           <a
             data-tf-slider="EHzEJ0YG"
