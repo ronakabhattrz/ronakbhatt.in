@@ -87,13 +87,15 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
         property="og:title"
         content="Ronak Bhatt | Ruby on Rails | React JS | Typescript | Netx Js | AWS"
       />
+      <meta property="og:url" content="https://www.ronakbhatt.in" />
+      <meta property="og:canonical" content="https://www.ronakbhatt.in" />
       <meta
         property="og:description"
-        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and Javascript Frameworks. I've worked in applications in several business areas and with several technologies."
+        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and JS Frameworks in several business areas and with several technologies."
       />
       <meta
         name="description"
-        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and Javascript Frameworks. I've worked in applications in several business areas and with several technologies."
+        content="I'm a Full Stack software engineer with solid experience with Ruby on Rails and JS Frameworks in several business areas and with several technologies."
       />
       <meta
         name="keywords"
