@@ -32,12 +32,12 @@ const Home = (): JSX.Element => (
           fontWeight="500"
           as="h2"
         >
-          I make your business shine on the web.
+          Ruby on Rails | React JS | Typescript | Netx Js | AWS
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
-          <Text textAlign="center">
+          <Text textAlign="center" as="h3">
             I&apos;m a Full Stack software engineer with solid experience with
             Ruby on Rails and Javascripts Frameworks. I&apos;ve worked in
             applications in several business areas and with several
