@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Container, Text, Button, Grid, Link, List } from '@components';
+import { Title, Container, Text, Button, Grid, Link } from '@components';
 import Head from 'next/head';
 import styled from 'styled-components';
 
