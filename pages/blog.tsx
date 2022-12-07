@@ -21,16 +21,6 @@ const BlogContainer = styled(Container)`
   }
 `;
 
-const BlogTag = styled.li`
-  color: rgb(105, 105, 105);
-  letter-spacing: 0.03em;
-  padding: 0 10px;
-  font-size: 10px;
-  line-height: 25px;
-  border-radius: 25px;
-  background-color: #f1f1f1;
-`;
-
 const BlogButton = styled(Button)`
   padding: 12px 30px;
 `;
