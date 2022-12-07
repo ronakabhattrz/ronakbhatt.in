@@ -13,6 +13,22 @@ import {
 } from 'react-icons/si';
 import { Instagram } from '@icons';
 
+const NavLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  font-weight: 500;
+  transition: opacity 0.3s ease 0s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+`;
+
 const StyledFooter = styled.footer`
   width: 100%;
   height: 100px;
@@ -69,20 +85,13 @@ const Footer = (): JSX.Element => {
     <StyledFooter>
       <Container paddingY="25px">
         <Grid gridGap="30px">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/projects">Projects</Link>
-          <>
-            <a
-              data-tf-slider="EHzEJ0YG"
-              data-tf-width="550"
-              data-tf-iframe-props="title=Contact Form"
-              data-tf-medium="snippet"
-            >
-              Contact
-            </a>
-            <script src="//embed.typeform.com/next/embed.js"></script>
-          </>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/about">About</NavLink>
+          <NavLink href="/projects">Projects</NavLink>
+          <NavLink href="CV-RONAK.pdf" target="_blank">
+            CV
+          </NavLink>
+          <NavLink href="/blogs">Blogs</NavLink>
         </Grid>
       </Container>
       <FooterGrid>
