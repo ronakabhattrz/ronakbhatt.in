@@ -179,7 +179,6 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
               borderBottom="1px solid rgba(0,0,0,0.1)"
             >
               <Container width="70%">
-                <>{console.log('TITLE:' + data.image_url)}</>
                 <Image
                   src={data.image_url}
                   alt={data.title}
@@ -225,9 +224,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const experiences = await getPosts('experiences');
-  experiences.sort((a, b) =>
-    b.data.date.toString().localeCompare(a.data.date.toString()),
-  );
+  experiences.sort((a, b) => b.data.index - a.data.index);
 
   return {
     props: {
