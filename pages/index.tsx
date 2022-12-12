@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 import { Container, Title, Button, Grid, Link, Text } from '@components';
 import styles from '@styles/Home.module.css';
+import Script from 'next/script';
 
 const Home = (): JSX.Element => (
   <Container>
@@ -99,6 +100,21 @@ const Home = (): JSX.Element => (
         </Grid>
       </Container>
     </Container>
+    <>
+      <Script id="tawk" strategy="lazyOnload">
+        {`
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/639775b7b0d6371309d41115/1gk3q7m22';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })(); 
+        `}
+      </Script>
+    </>
   </Container>
 );
 
