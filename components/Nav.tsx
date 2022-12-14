@@ -99,7 +99,7 @@ const Nav = (): JSX.Element => {
           <NavLink href="/about">About</NavLink>
           <NavLink href="/projects">Projects</NavLink>
           <NavLink href="/blog">Blogs</NavLink>
-          <NavLink href="CV-RONAK.pdf" target="_blank">
+          <NavLink href="RONAKCV.pdf" target="_blank">
             CV
           </NavLink>
         </Grid>
