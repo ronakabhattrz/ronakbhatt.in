@@ -18,6 +18,10 @@ const states: { [key: string]: React.CSSProperties } = {
     left: '159px',
     width: '79px',
   },
+  '/blogs': {
+    left: '243px',
+    width: '79px',
+  },
 };
 
 const NavLink = styled.a`
@@ -98,7 +102,7 @@ const Nav = (): JSX.Element => {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/projects">Projects</NavLink>
-          <NavLink href="/blog">Blogs</NavLink>
+          <NavLink href="/blogs">Blogs</NavLink>
           <NavLink href="RONAKCV.pdf" target="_blank">
             CV
           </NavLink>

@@ -33,7 +33,7 @@ const Home = (): JSX.Element => (
           fontWeight="500"
           as="h2"
         >
-          Ruby on Rails | React JS | Typescript | Netx Js | AWS
+          Ruby on Rails | React JS | Typescript | Next Js | AWS
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">

@@ -80,12 +80,12 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Ronak Bhatt', children }) => (
       <meta charSet="utf-8" />
       <meta
         name="author"
-        content="Ronak Bhatt | Ruby on Rails | React JS | Typescript | Netx Js | AWS"
+        content="Ronak Bhatt | Ruby on Rails | React JS | Typescript | Next Js | AWS"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         property="og:title"
-        content="Ronak Bhatt | Ruby on Rails | React JS | Typescript | Netx Js | AWS"
+        content="Ronak Bhatt | Ruby on Rails | React JS | Typescript | Next Js | AWS"
       />
       <meta property="og:url" content="https://www.ronakbhatt.in" />
       <meta property="og:canonical" content="https://www.ronakbhatt.in" />
